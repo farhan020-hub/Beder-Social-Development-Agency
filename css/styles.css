@@ -83,12 +83,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700&display=swap");
 
 :root {
-  --font-1: "Inter", sans-serif;
-  --font-2: "Manrope", sans-serif;
-
-  /* monospace
-     */
-  --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3077,10 +3072,13 @@ img.u-pull-left {
 }
 
 .s-header__logo img {
-  width: var(--logo-width);
+  width: 135px;
   margin: 0;
-  vertical-align: bottom;
-  border-radius: 50%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
 /* --------------------------------------------------------------------
@@ -3109,16 +3107,16 @@ img.u-pull-left {
 .s-header__menu-links a {
   display: block;
   font-family: var(--font-2);
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: var(--vspace-1);
-  color: rgba(213, 206, 206, 0.6);
+  color: rgb(255, 255, 255);
   padding: 0 1.2rem;
   transition-property: color, background-color;
 }
 
 .s-header__menu-links .current a {
-  color: white;
+  color: rgb(12, 247, 63);
 }
 
 /* --------------------------------------------------------------------
@@ -3378,7 +3376,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
   display: block;
-  background-image: url('https://images.unsplash.com/photo-1513346940221-6f673d962e97?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFic3RyYWN0fGVufDB8fDB8fHww');
+  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGRhcmslMjBhYnN0cmFjdHxlbnwwfHwwfHx8MA%3D%3D');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3437,7 +3435,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
   display: block;
-  background-image: url('https://images.unsplash.com/photo-1610500796385-3ffc1ae2f046?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNvbWFsaWF8ZW58MHx8MHx8fDA%3D');
+  background-image: url('https://images.unsplash.com/photo-1501975558162-0be7b8ca95ea?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGRhcmslMjBhYnN0cmFjdHxlbnwwfHwwfHx8MA%3D%3D');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4698,7 +4696,7 @@ img.u-pull-left {
     font-style: italic;
     font-size: 35px;
     font-weight: bolder;
-    box-shadow: 8px 6px  8px 6px  rgb(0, 0, 0);
+    
 }
 
 .s-intros p {
